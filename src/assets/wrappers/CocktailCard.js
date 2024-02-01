@@ -1,0 +1,40 @@
+import styled from 'styled-components'
+const Wrapper = styled.article`
+  background: var(--white);
+  box-shadow: var(--shadow-2);
+  transition: var(--transition);
+  display: grid;
+  grid-template-rows: auto 1fr;
+  border-radius: var(--borderRadius);
+  &:hover {
+    box-shadow: var(--shadow-4);
+  }
+  img {
+    height: 15rem;
+    width: 100%;
+    border-top-left-radius: var(--borderRadius);
+    border-top-right-radius: var(--borderRadius);
+  }
+  .info-container {
+    padding: 1.5rem;
+    h4,
+    h5 {
+      margin-bottom: 0.5rem;
+    }
+    h4 {
+      font-weight: 700;
+    }
+    p {
+      margin-bottom: 1rem;
+      color: var(--grey-500);
+    }
+    a {
+      background: var(--primary-500);
+      color: var(--white);
+      padding: 0.2rem 0.75rem;
+      border-radius: var(--borderRadius);
+    }
+  }
+`
+
+export default Wrapper
