@@ -29,3 +29,6 @@ Disabling forms while a mutation is happening
 Adding busy indicators to submit buttons
 Optimistically showing a new record while it's being created on the server
 Optimistically showing the new state of a record while it's being updated
+
+important annonce in order to publish in Netlify we must add this line bellow
+/\* /index.html 200
