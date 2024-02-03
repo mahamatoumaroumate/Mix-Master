@@ -30,4 +30,4 @@ Adding busy indicators to submit buttons
 Optimistically showing a new record while it's being created on the server
 Optimistically showing the new state of a record while it's being updated
 
-important annonce in order to publish in Netlify we must add this line bellow in public create a fille with name \_redict the add \* /index.html 200
+important annonce in order to publish in Netlify we must add this line bellow in public create a fille with name \_redirects the add \* /index.html 200
